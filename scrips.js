@@ -29,7 +29,7 @@ document.querySelectorAll("#lista li").forEach(item => {
 
 // Manipulación de imagen
 document.getElementById("imagen").addEventListener("click", () => {
-    document.getElementById("imagen").src = "https://via.placeholder.com/200";
+    document.getElementById("imagen").src = "C:\\Users\\julio\\Downloads\\Laboratorio 2\\Laboratorio_2\\Imagen progra.webp";
 });
 
 // Manipulación del footer
