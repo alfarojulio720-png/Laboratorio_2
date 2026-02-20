@@ -2,33 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Manipulación DOM con JavaScript</title>
+    <title>DOM con JavaScript - Versión Robusta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1 id="titulo">Ejemplo DOM con JavaScript</h1>
+    <h1 id="titulo">Manipulación del DOM</h1>
 
-    <p class="texto">Este texto será modificado</p>
+    <section class="contenedor">
+        <p class="texto">Este texto puede cambiar, ocultarse o modificarse</p>
 
-    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
 
-    <button id="btnSaludar">Saludar</button>
+        <div class="botones">
+            <button id="btnSaludar">Saludar</button>
+            <button class="btnColor">Cambiar color</button>
+            <button class="btnOcultar">Ocultar / Mostrar texto</button>
+        </div>
 
-    <button class="btnColor">Cambiar color</button>
+        <ul id="lista">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
 
-    <button class="btnOcultar">Ocultar texto</button>
-
-    <ul id="lista">
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-    </ul>
-
-    <img id="imagen" src="C:\Users\julio\Downloads\Laboratorio 2\Laboratorio_2\Imagen progra.webp" alt="Imagen">
+        <img id="imagen" src="C:\\Users\\julio\\Downloads\\Laboratorio 2\\Laboratorio_2\\Imagen progra.webp" alt="Imagen interactiva">
+    </section>
 
     <footer>
-        <span class="info">Footer interactivo</span>
+        <span class="info">Haz clic aquí</span>
     </footer>
 
     <script src="scrips.js"></script>

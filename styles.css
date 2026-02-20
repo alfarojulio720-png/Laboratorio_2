@@ -1,20 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
     padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .texto {
     font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.botones button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
 }
 
 .btnColor {
     background-color: lightblue;
+    border: none;
 }
 
 .btnOcultar {
     background-color: lightcoral;
+    border: none;
 }
 
 .oculto {
     display: none;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
 }
